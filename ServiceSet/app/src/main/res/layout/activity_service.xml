@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.serviceset.service.ServiceActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开启音乐播放器"
+            android:id="@+id/bt_start"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止音乐播放服务"
+            android:id="@+id/bt_stop"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="绑定音乐播放服务"
+            android:id="@+id/bt_bind"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="解绑音乐播放服务"
+            android:id="@+id/bt_unbind"
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
